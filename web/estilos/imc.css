@@ -1,0 +1,61 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form button {
+     font-family: "Roboto", sans-serif;
+  width: 50%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px #3e4144;
+}
+.form input {
+     font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #3e4144;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color:white;
+    border-radius: 30px;
+    text-align: center;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    margin: 0 0 25px;
+    text-align: center;
+}
+
+h5 {
+    margin: 0 0 15px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color :grey;
+}
+
+.form {
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0px 0px 20px;
+}
+body{
+    /* background-image: url(https://media.giphy.com/media/zIOdLMZDcBDc2gk6vV/giphy.gif); */
+      background-image: url("../img/abstract.png");
+      background-size: 100%;
