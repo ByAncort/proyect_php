@@ -35,24 +35,25 @@ if ($years < 18){
 }
 
 echo "<h2>Principiante</h2>";
-
 if ($height >= 180 || $height >=160){
-  echo "<p>Caminar con mancuernas - mancuernas <br> 3 Sets x 00:40</p>";
-  echo "<p>Levantamiento de peso muerto - barra de pesas <br> 3 Sets x 12 Reps</p>";
-  echo "<p>Press de banca - barra de pesas <br> 3 Sets x 12 Reps</p>";
-  echo "<p>Sentadilla - con barra <br> 3 Sets x 12 Reps</p>";
-  echo "<p>Remo inclinado - barra de pesas<br>3 Sets x 12 Reps</p>";
-  echo "<p>Rueda de abdominales<br>3 Sets x 12 Reps</p>";
+echo"<p>Te recomendamos empezar con pesos comodos para dominar la tecnica de una forma correcta.</p>";
+  echo "<p>Caminar con mancuernas - mancuernas <br> 2 Sets x 00:40</p>";
+  echo "<p>Levantamiento de peso muerto - barra de pesas <br> 2 Sets x 12 Reps</p>";
+  echo "<p>Press de banca - barra de pesas <br> 2 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla - con barra <br> 2 Sets x 12 Reps</p>";
+  echo "<p>Remo inclinado - barra de pesas<br>2 Sets x 12 Reps</p>";
+  echo "<p>Rueda de abdominales<br>2 Sets x 12 Reps</p>";
 
 
 }elseif ($height >= 140 && $height <= 160) {
+echo"<p>Te recomendamos empezar con pesos comodos para dominar la tecnica de una forma correcta.</p>";
 
-  echo "<p>Sentadilla tradicional <br> 3 Sets x 20 Reps</p>";
-  echo "<p>Levantamiento de peso muerto - mancuernas <br> 4 Sets x 12 Reps</p>";
-  echo "<p>Press de banca - mancuernas <br> 4 Sets x 10 Reps</p>";
-  echo "<p>Sentadilla - con barra <br> 4 Sets x 10 Reps</p>";
-  echo "<p>Remo inclinado - barra de pesas<br>3 Sets x 15 Reps</p>";
-  echo "<p>Abdominales en el piso<br>3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla tradicional <br> 2 Sets x 20 Reps</p>";
+  echo "<p>Levantamiento de peso muerto - mancuernas <br> 2 Sets x 12 Reps</p>";
+  echo "<p>Press de banca - mancuernas <br> 2 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla - con barra <br> 2 Sets x 12 Reps</p>";
+  echo "<p>Remo inclinado - barra de pesas<br>2 Sets x 15 Reps</p>";
+  echo "<p>Abdominales en el piso<br>2 Sets x 15 Reps</p>";
 
 }else {
  echo "Estas en una desnutricion severa come mas<3";
@@ -62,27 +63,34 @@ if ($height >= 180 || $height >=160){
 echo "<h2>Intermedio</h2>";
 //mayor sea tu peso mas podras levantar 
 if ($kg >= 70){
+echo"<p>Te recomendamos hacer los ejercicios con un peso exigente y en la ultima reps que llegues al fallo</p>";
 
   echo "<h2>Dia 1 - tren inferior</h2>";
-  echo "<p>Elevacion de gluteos</p>";
-  echo "<p>Sentadilla - barra de pesas</p>";
-  echo "<p>Sentadilla bulgara dividida - mancuernas</p>";
-  echo "<p>Levantamiento de peso muerto - barra de pesas</p>";
-  echo "<p>Aductor de caderas sentado - maquina</p>";
+  
+  echo "<p>Elevacion de gluteos<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla bulgara dividida - mancuernas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Levantamiento de peso muerto - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Aductor de caderas sentado - maquina <br> 3 Sets x 12 Reps</p>";
+  
   echo "<h2>dia 2 - tren superior</h2>";
-  echo "<p>Elevacion lateral - mancuernas <br> 3 Sets x 15 Reps</p>";
-  echo "<p>Tiron frontal - cable <br> 3 Sets x 12 Reps</p>";
-  echo "<p>curl de biceps - barra de pesas <br> 3 Sets x 12 Reps</p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Elevacion lateral - mancuernas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Curl de biceps - barra de pesas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Remos - barra de pesas<br>> 3 Sets x 12 reps</p>";
+  echo "<p>Press frances <br> 3 Sets x 12 reps</p>";
+  
   echo "<h2>dia 3 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Abdominales <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Abdominales cruzados <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Pess de banca<br> 3 Sets x 8 Reps</p>";
   echo "<p></p>";
 
 }elseif ($kg >= 50 && $kg >=69){
+echo"<p>Te recomendamos hacer los ejercicios con un peso exigente y en la ultima reps que llegues al fallo</p>";
 
   echo "<h2>dia 1 - tren inferior</h2>";
   echo "<p></p>";
@@ -105,12 +113,12 @@ if ($kg >= 70){
 
 }else{
 
-  echo "No tienes el nivel suficiente para desbloquiar esta seccion";
+  echo "No tienes el nivel suficiente para desbloquear esta seccion";
 }
 
 echo "<h2>avanzado</h2>";
-
 if ($kg >= 81 && $kg <= 90){
+echo"Te recomendamos que no levantes tanto peso sin una persona que te haga spotting";
   echo "<h2>dia 1 - tren inferior</h2>";
   echo "<p></p>";
   echo "<p></p>";
@@ -132,6 +140,7 @@ if ($kg >= 81 && $kg <= 90){
 
 
 }elseif ($kg >= 70 && $kg >=80){
+echo"Te recomendamos que no levantes tanto peso sin una persona que te haga spotting";
   echo "<h2>dia 1 - tren inferior</h2>";
   echo "<p></p>";
   echo "<p></p>";
@@ -154,7 +163,7 @@ if ($kg >= 81 && $kg <= 90){
 
 }else{
 
-  echo "No tienes el nivel suficiente para desbloquiar esta seccion";
+  echo "No tienes el nivel suficiente para desbloquear esta seccion";
 }
 
 
