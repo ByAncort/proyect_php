@@ -14,7 +14,7 @@
         <ul id="menu" class="navbar">
           <li><a href="index.php">Inicio</a></li>
           <li><a href="rutinas.php">Rutinas</a></li>
-          <li><a href="imc.php">Imc</a></li>
+          <!-- <li><a href="imc.php">Imc</a></li> -->
           <li><a href="https://github.com/ByAncort">autor</a></li>
         </ul>
       </nav>
@@ -87,29 +87,36 @@ echo"<p>Te recomendamos hacer los ejercicios con un peso exigente y en la ultima
   echo "<p>Abdominales cruzados <br> 3 Sets x 8 Reps</p>";
   echo "<p>Press de pecho <br> 3 Sets x 8 Reps</p>";
   echo "<p>Pess de banca<br> 3 Sets x 8 Reps</p>";
-  echo "<p></p>";
+  echo "<p>press de hombro con barra<br> 3 Sets x 8 Reps</p>";
 
 }elseif ($kg >= 50 && $kg >=69){
 echo"<p>Te recomendamos hacer los ejercicios con un peso exigente y en la ultima reps que llegues al fallo</p>";
 
-  echo "<h2>dia 1 - tren inferior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  echo "<h2>Dia 1 - tren inferior</h2>";
+  
+  echo "<p>Elevacion de gluteos<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla bulgara dividida - mancuernas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Levantamiento de peso muerto - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Aductor de caderas sentado - maquina <br> 3 Sets x 12 Reps</p>";
+  
   echo "<h2>dia 2 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Elevacion lateral - mancuernas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Curl de biceps - barra de pesas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Remos - barra de pesas<br>> 3 Sets x 12 reps</p>";
+  echo "<p>Press frances <br> 3 Sets x 12 reps</p>";
+  
   echo "<h2>dia 3 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Abdominales <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Abdominales cruzados <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Pess de banca<br> 3 Sets x 8 Reps</p>";
+  echo "<p>press de hombro con barra<br> 3 Sets x 8 Reps</p>";
+
+
 
 }else{
 
@@ -119,46 +126,58 @@ echo"<p>Te recomendamos hacer los ejercicios con un peso exigente y en la ultima
 echo "<h2>avanzado</h2>";
 if ($kg >= 81 && $kg <= 90){
 echo"Te recomendamos que no levantes tanto peso sin una persona que te haga spotting";
-  echo "<h2>dia 1 - tren inferior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  echo "<h2>Dia 1 - tren inferior</h2>";
+  
+  echo "<p>Elevacion de gluteos<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla bulgara dividida - mancuernas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Levantamiento de peso muerto - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Aductor de caderas sentado - maquina <br> 3 Sets x 12 Reps</p>";
+  
   echo "<h2>dia 2 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Elevacion lateral - mancuernas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Curl de biceps - barra de pesas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Remos - barra de pesas<br>> 3 Sets x 12 reps</p>";
+  echo "<p>Press frances <br> 3 Sets x 12 reps</p>";
+  
   echo "<h2>dia 3 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Abdominales <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Abdominales cruzados <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Pess de banca<br> 3 Sets x 8 Reps</p>";
+  echo "<p>press de hombro con barra<br> 3 Sets x 8 Reps</p>";
 
 
 }elseif ($kg >= 70 && $kg >=80){
 echo"Te recomendamos que no levantes tanto peso sin una persona que te haga spotting";
-  echo "<h2>dia 1 - tren inferior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  echo "<h2>Dia 1 - tren inferior</h2>";
+  
+  echo "<p>Elevacion de gluteos<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla bulgara dividida - mancuernas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Levantamiento de peso muerto - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Aductor de caderas sentado - maquina <br> 3 Sets x 12 Reps</p>";
+  
   echo "<h2>dia 2 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Elevacion lateral - mancuernas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Curl de biceps - barra de pesas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Remos - barra de pesas<br>> 3 Sets x 12 reps</p>";
+  echo "<p>Press frances <br> 3 Sets x 12 reps</p>";
+  
   echo "<h2>dia 3 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Abdominales <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Abdominales cruzados <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Pess de banca<br> 3 Sets x 8 Reps</p>";
+  echo "<p>press de hombro con barra<br> 3 Sets x 8 Reps</p>";
+
+
 
 
 }else{
@@ -170,46 +189,56 @@ echo"Te recomendamos que no levantes tanto peso sin una persona que te haga spot
 
   echo "<h2>GymRats</h2>";
 if ($kg >= 100 ){
-  echo "<h2>dia 1 - tren inferior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  echo "<h2>Dia 1 - tren inferior</h2>";
+  
+  echo "<p>Elevacion de gluteos<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla bulgara dividida - mancuernas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Levantamiento de peso muerto - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Aductor de caderas sentado - maquina <br> 3 Sets x 12 Reps</p>";
+  
   echo "<h2>dia 2 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Elevacion lateral - mancuernas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Curl de biceps - barra de pesas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Remos - barra de pesas<br>> 3 Sets x 12 reps</p>";
+  echo "<p>Press frances <br> 3 Sets x 12 reps</p>";
+  
   echo "<h2>dia 3 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Abdominales <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Abdominales cruzados <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Pess de banca<br> 3 Sets x 8 Reps</p>";
+  echo "<p>press de hombro con barra<br> 3 Sets x 8 Reps</p>";
+
 
 
 }elseif ($kg >= 90 && $kg >=99){
-  echo "<h2>dia 1 - tren inferior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  echo "<h2>Dia 1 - tren inferior</h2>";
+  
+  echo "<p>Elevacion de gluteos<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Sentadilla bulgara dividida - mancuernas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Levantamiento de peso muerto - barra de pesas<br> 3 Sets x 12 Reps</p>";
+  echo "<p>Aductor de caderas sentado - maquina <br> 3 Sets x 12 Reps</p>";
+  
   echo "<h2>dia 2 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
+  
+  echo "<p>Elevacion lateral - mancuernas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Curl de biceps - barra de pesas <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Remos - barra de pesas<br>> 3 Sets x 12 reps</p>";
+  echo "<p>Press frances <br> 3 Sets x 12 reps</p>";
+  
   echo "<h2>dia 3 - tren superior</h2>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-  echo "<p></p>";
-
+  
+  echo "<p>Abdominales <br> 3 Sets x 12 Reps</p>";
+  echo "<p>Abdominales cruzados <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Press de pecho <br> 3 Sets x 8 Reps</p>";
+  echo "<p>Pess de banca<br> 3 Sets x 8 Reps</p>";
+  echo "<p>press de hombro con barra<br> 3 Sets x 8 Reps</p>";
 
 }else{
   echo "No tienes el nivel suficiente para desbloquear esta seccion";

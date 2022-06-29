@@ -22,11 +22,11 @@
 
 <div class="login-page">
   <div class="form">
-    <form class="register-form" method="post" name="entrenador">
+    <form class="register-form" method="post" action="#" name="entrenador">
 <?php echo "<p>Calcula tu imc</p>"; ?>
 <?php echo "<h5>Ingresa tus datos</h5>"; ?>
       <input type="text" placeholder="Peso" name="peso"/>
-      <input type="text" placeholder="Altura" name ="altura" maxlength="2" />
+      <input type="text" placeholder="Altura" name ="altura" maxlength="3" />
       
    <button>enviar</button>
    </form>
@@ -34,14 +34,6 @@
     </div>
 </div>
 <main>
-<?php 
-$peso=$_POST["peso"];
-$altura=$_POST["altura"];
-$imc=($peso/($altura*$altura))*10000;
-//  if ($imc<)
-
-
-?>
 
 </main>
 

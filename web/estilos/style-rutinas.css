@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 * {
 margin:0;
 padding:0;
@@ -79,18 +80,17 @@ width: 100%;
 
 /* etiquetas */
 main {
+     font-family: "Roboto", sans-serif;
 margin: 100px 0;
 text-align: center;
 background-color:white;
 margin-left: 200px;
 margin-right: 200px;
 border-radius: 30px;
-
-
+box-shadow: 0 0 0 10px white;
 }
 html {
 
-      background-image: url("../img/abstract.png");
+      background-image: url("https://media.giphy.com/media/IXnygGeB6LPPi/giphy.gif");
       background-size: 100%;
 }
-
